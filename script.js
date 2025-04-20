@@ -184,3 +184,33 @@ renderTransactions();
 updateSummary();
 updateChart();
 analyzeTransactions();
+
+
+// Check if a user is logged in
+const loggedInEmail = localStorage.getItem('loggedInUser');
+
+if (loggedInEmail) {
+  // Retrieve the stored user object
+  const storedUser = localStorage.getItem('user_' + loggedInEmail);
+
+  if (storedUser) {
+    // Parse the user object
+    const user = JSON.parse(storedUser);
+
+    // Access the username
+    const username = user.username;
+
+    // Display the username in the browser
+    const welcomeMessage = document.getElementById('user-email');
+    welcomeMessage.textContent = `${username}`;
+  } else {
+    console.error('User data not found!');
+  }
+} else {
+  console.error('No user is currently logged in!');
+}
+
+// ----------------------
+
+
+

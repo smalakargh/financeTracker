@@ -10,24 +10,14 @@ A simple, yet powerful personal finance assistant designed for students like Pri
 - **CSS Grid/Flexbox**: 🎨 To make the design responsive and user-friendly.
 
 ### Backend Development:
-- **Node.js & Express.js**: 🔗 For creating APIs and handling server-side operations.
-- **Firebase or Supabase (Optional)**: 📂 For seamless backend management.
-
+- **Basic vanilla Javascript**: 🔗 For creating APIs and handling server-side operations.
+- **Local Storage** : Is used to store Data through backend.
 ---
 
 ## 📊 **Bonus Tools**
 ### Charts & Visuals:
 - **Chart.js**: 🍩 For engaging spending visualizations and graphs.
 - **D3.js or Recharts**: 🖌️ For advanced chart interactivity.
-
----
-
-## 🧠 **Smart Features (Optional Enhancements)**
-### AI Budget Suggestions:
-- Use OpenAI API 🤖 or ML models to recommend money-saving tips and suggest optimizations based on spending habits.
-
-### ChatGPT Integration:
-- Enable dynamic Q&A 💬, where users can ask questions like, "How can I save ₹500 for my concert?"
 
 ---
 
@@ -41,11 +31,6 @@ A simple, yet powerful personal finance assistant designed for students like Pri
 - Build APIs for tracking expenses, setting budgets, and fetching spending data.
 - 🌐 Connect the frontend and backend using Fetch API/AJAX.
 
-### 3️⃣ Integrate Smart Features
-- Provide personalized insights 🤔 with AI or ML-based budget recommendations.
-- 🗨️ Enable ChatGPT-powered financial advice.
-
----
 
 ## 🎯 **How It Works**
 1. 📝 **Track Expenses**: Add details like amount and category.
@@ -84,4 +69,4 @@ A simple, yet powerful personal finance assistant designed for students like Pri
 ---
 
 ## 🤗 **Credits**
- made With ❤️
+ made With ❤️ SyntaX team -

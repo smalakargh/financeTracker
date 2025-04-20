@@ -4,6 +4,7 @@
   <meta charset="UTF-8" />
   <title>Finance Buddy - Login/Signup</title>
   <link rel="stylesheet" href="style.css" />
+  <link rel="stylesheet" href="smstyle.css">
   <!-- Lottie Player CDN -->
   <script src="https://unpkg.com/@lottiefiles/lottie-player@latest/dist/lottie-player.js"></script>
 </head>
@@ -19,10 +20,15 @@
   </lottie-player>
 
   <!-- Stylish site header -->
-  <header class="site-header">
+  <!-- <header class="site-header">
     <h1 class="fancy-title">Finance Buddy</h1>
-  </header>
-
+  </header> -->
+  <div class="wrapContain">
+<div class="smcontainer">
+  <div class="leftImg">
+    <img src="src/chart.png" id="signImg">
+    <img src="src/login.png" id="loginImg">
+  </div>
   <div class="auth-container">
     <div id="form-container">
       <form id="login-form" class="auth-form">
@@ -35,6 +41,7 @@
 
       <form id="signup-form" class="auth-form hidden">
         <h2>Sign Up</h2>
+        <input type="text" id="username" placeholder="Full Name" required />
         <input type="email" id="signup-email" placeholder="Email" required />
         <input type="password" id="signup-password" placeholder="Password" required />
         <button type="submit">Sign Up</button>
@@ -42,6 +49,8 @@
       </form>
     </div>
   </div>
+</div>
+</div>
 
   <script src="auth.js"></script>
 </body>
