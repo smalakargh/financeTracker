@@ -49,6 +49,7 @@ html{
     }
     .smcontainer{
         flex-direction: column-reverse;
+        padding: 10px;
     }
 }
 
@@ -62,7 +63,7 @@ section{
     display: flex;
     gap: 30px;
     position: relative;
-    margin-top: 120px;
+    margin-top: 114px;
     justify-content: center;
     align-items: center;
     width: 100%;
@@ -140,6 +141,7 @@ nav .smlogout:hover{
     background-color: #fff;
     padding: 20px 40px;
     border-radius: 0 13px 0 13px ;
+    border: 1px solid #328E6E;
 }
 .smhide{
     display: block;
@@ -161,12 +163,12 @@ ul li {
   /* --------------------- */
 
 .dashboardSection .smlook{
-    width: 100%;
+    width: 96%;
     display: flex;
     justify-content: space-around;
     align-items: center;
     background-color: #fff;
-    height: 85vh;
+    /* height: 85vh; */
     border-radius: 19px;
 }
 .smlook .smimglogo img{
@@ -181,4 +183,23 @@ ul li {
 .smimglogo .smSpc{
     color: #328E6E;
     font-size: 50px;
+}
+.wrapAll{
+    width: 99%;
+}
+
+/* ---------footer------------ */
+.footer{
+    background-color: #328e6e;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    padding: 10px;
+    margin: 20px 0 0 0;
+}
+.footer a{
+    text-decoration: none;
+    color: #fff;
+    font-weight: 600;
 }

@@ -2,9 +2,11 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8" />
+  <!-- <meta name="viewport" content="width=device-width, initial-scale=1.0"> -->
   <title>Finance Buddy - Dashboard</title>
   <link rel="stylesheet" href="style.css" />
   <link rel="stylesheet" href="smstyle.css">
+  <link rel="stylesheet" href="smrespon.css">
   <!-- Chart.js CDN -->
   <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
@@ -34,17 +36,20 @@
       <i class="fa-regular fa-user"></i>
     </div>
     <div class="floatingLogout">
+      <div class="wrapfloat">
       <h2>Visit again! <span id="smidname"></span></h2>
       <button id="logout-btn">Logout <i class="fa-solid fa-right-from-bracket"></i></button>
+    </div>
     </div>
   </nav>
   <!-- Code is developed by developerSm github: https://github.com/smalakargh -->
   <!-- <header class="user-header">
   </header> -->
+  <div class="wrapAll">
 <div class="dashboardSection">
   <div class="smlook">
     <div class="smimglogo">
-      <h2 class="smSpc">Welcome ! <span id="user-email" class="smSpc"></span>🖐️</h2>
+      <h2 class="smSpc">Welcome !<span id="user-email" class="smSpc handShake"></span>🖐️</h2>
       <img src="src/transaction.png">
       <div class="summary">
         <h2>Summary</h2>
@@ -93,6 +98,10 @@
     <p id="analysis-text">Add some transactions to see your spending habits and tips.</p>
   </section>
 
+</div>
+</div>
+<div class="footer">
+  <p><i class="fa-regular fa-copyright"></i> Copyright 2025 | syntaX | made with ❤️ by <a href="https://portfolio-smalakars-projects.vercel.app/">Smalakar</a></p>
 </div>
 <script src="script.js"></script>
 <script src="smscript.js"></script>
